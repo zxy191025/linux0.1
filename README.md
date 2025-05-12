@@ -1,4 +1,9 @@
-Linux-0.11
+## Author zhenjia.zhao
+## Date 2025:05:12
+## Description linux 0.11 code readme file
+
+
+## Linux-0.11
 ==========
 
 The old Linux kernel source ver 0.11 which has been tested under modern Linux,  Mac OSX and Windows.
@@ -53,13 +58,9 @@ $ make
 same as section 1.2
 
 
-## 3. Build on Windows
-todo...
+### set architecture i386:x86-64
 
-
-set architecture i386:x86-64
-
-VSCODE的配置
+### VSCODE的配置
 
 {
     // Use IntelliSense to learn about possible attributes.
