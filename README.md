@@ -1,11 +1,10 @@
-Author zhenjia.zhao
-
-Date 2025:05:12
-
-Description linux 0.11 code readme file
-
 ## Linux-0.11
-==========
+
+### ==========
+
+//Author            zhenjia.zhao
+//Date              2025/05/12
+//Description       linux 0.11 code readme file
 
 The old Linux kernel source ver 0.11 which has been tested under modern Linux,  Mac OSX and Windows.
 
@@ -58,63 +57,33 @@ $ make
 ### 2.2. hack linux-0.11
 same as section 1.2
 
-
-### set architecture i386:x86-64
-
-### VSCODE的配置
+### 2.3. Vscode的配置
 
 {
-
     // Use IntelliSense to learn about possible attributes.
-
     // Hover to view descriptions of existing attributes.
-
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-
     "version": "0.2.0",
-
     "configurations": [
-
         {
-
             "name": "debug",
-
             "type": "cppdbg",
-
             "request": "launch",
-
             "program": "${workspaceFolder}/tools/system",
-
-            "miDebuggerServerAddress":"127.0.0.1:1234",
-
+           "miDebuggerServerAddress":"127.0.0.1:1234",
             "args": [],
-
             "stopAtEntry": false,
-
             "cwd": "${workspaceFolder}",
-
             "environment": [],
-
             "externalConsole": false,
-
             "MIMode": "gdb",
-
             "setupCommands": [
-
                 {
-
                     "description": "Set architecture to i386:x86-64",
-
                     "text": "set architecture i386:x86-64",
-
                     "ignoreFailures": false
-
                 }
-
-            ]
-        
-        }
-    
+            ]        
+        }   
     ]
-
 }
